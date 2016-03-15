@@ -31,7 +31,7 @@ public class Rectangle extends Shape implements Comparable{
 
     @Override
     public String toString() {
-        return "This is " + this.getShapeName()+ ","+
+        return "This is " + this.getShapeName()+ ","+    //can use without this keyword
                 "color is:" + this.getShapeColor()+ ", Height = " + this.getHeight() + ", Width = "+ this.getWidht();
 
     }
