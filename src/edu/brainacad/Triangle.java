@@ -29,7 +29,7 @@ public class Triangle extends Shape implements Comparable {
 
     @Override
     public String toString() {
-        return "This is " + this.getShapeName()+ ","+
+        return "This is " + this.getShapeName()+ ","+ // use withiout this keyword
                 "color is:" + this.getShapeColor()+ ", a = " + getA() + ", b = "+ getB()+ ", c = "+getC();
     }
 
