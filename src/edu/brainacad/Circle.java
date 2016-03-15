@@ -18,7 +18,7 @@ public class Circle extends Shape implements Comparable{
 
     @Override
     public double calcArea() {
-        double area = Math.PI* Math.pow(getRadius(),2);
+        double area = Math.PI* Math.pow(getRadius(),2); //can get value directly without method invoke
 
         return area;
     }
