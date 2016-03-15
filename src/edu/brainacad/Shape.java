@@ -34,6 +34,6 @@ public abstract class Shape implements Drawable {
 
     @Override
     public void draw() {
-        System.out.println(this + ", area is: " + calcArea());
+        System.out.println(this + ", area is: " + calcArea()); //interesting way, but it's more clear to use toString() method directly.
     }
 }
